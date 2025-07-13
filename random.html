@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel = "stylesheet" href = "random.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="flex-content">
+        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/guess-game-img.png" class="top-image"/>
+        <h1>Find out the right number between 1 to 100</h1>
+
+        <div class = "guess-num">
+            <div class = "flex-center">
+            <h1>Guess the number</h1>
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/guess-number-img.png" class="bottom-image"/>
+            </div>
+            <div class="text-center">
+            <input type="text" class="text-type" id = "userInput">
+            </div>
+            <div class="btn-center">
+            <button class="btn" onClick="randomNumber()">Check</button>
+            </div>
+            <p class="game-result" id = "gameResult"></p>
+
+        </div>
+    </div>
+
+    <script src = "random.js"></script>
+</body>
+</html>
